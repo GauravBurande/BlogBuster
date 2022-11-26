@@ -1,18 +1,19 @@
 import React, { useState, useEffect } from 'react'
-import { useRouter } from 'next/router'
 import styles from "../../styles/BlogPost.module.css"
 
 const Slug = (props) => {
 
   const [blog, setBlog] = useState(props.myBlog)
 
+  function createmarkup (content) {
+    return {__html: content}
+  }
+
   return (
     <div className={styles.container}>
       <main className={styles.main}>
         <h1>{blog && blog.title}</h1>
-        <div>
-          {blog && blog.content}
-        </div>
+        {blog && <div dangerouslySetInnerHTML={createmarkup(blog.content)}></div>}
       </main>
     </div>
   )

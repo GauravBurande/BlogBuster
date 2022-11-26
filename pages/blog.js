@@ -12,7 +12,7 @@ const Blog = (props) => {
             <Link href={`/blogpost/${blogItem.slug}`}>
               <h2>{blogItem.title}</h2>
             </Link>
-            <p>{blogItem.content.substr(0, 190)} ...</p>
+            <p>{blogItem.metadesc}</p>
           </div>
         })}
       </main >
