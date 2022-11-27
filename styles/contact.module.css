@@ -5,7 +5,8 @@
   }
 
   .container {
-    padding: 0 22rem;
+    max-width: 40%;
+    margin: auto;
   }
 
   .formElement {
@@ -13,7 +14,7 @@
     flex-direction: column;
     padding: 10px;
     align-items: center;
-    /* width: 50vw; */
+    justify-content: center;
   }
 
   .formElement label {
@@ -22,17 +23,17 @@
 
   .formElement input {
     padding: 4px 5rem;
-    width: 25rem;
+    width: stretch;
     height: 2rem;
   }
 
   .textarea {
-    width: 25rem;
+    width: stretch;
     padding: 1rem 10px;
   }
 
   .submitbtn {
-    width: 25rem;
+    width: stretch;
     height: 2rem;
     font: bolder;
     cursor: pointer;
