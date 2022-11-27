@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 
+/contactdata
+/blogdata
 # testing
 /coverage
 
@@ -34,6 +36,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-./contactdata
-./blogdata

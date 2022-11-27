@@ -14,7 +14,7 @@ const About = () => {
       </div>
 
       <h2>Services</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id excepturi doloribus ipsam beatae aut quibusdam dicta optio consequatur, consectetur cupiditate minima ex error, placeat voluptatum eos sunt dolore ducimus exercitationem natus! Debitis repudiandae dolorem quaerat suscipit accusamus dicta iste veniam ex magnam praesentium facilis consectetur mollitia quidem neque hic aspernatur eius quisquam doloremque, cum pariatur numquam eligendi inventore! Repellat, quidem!</p>
+      <p>Lorem ipsum dolor sit amut consectetur adipisicing elit. Id excepturi doloribus ipsam beatae aut quibusdam dicta optio consequatur, consectetur cupiditate minima ex error, placeat voluptatum eos sunt dolore ducimus exercitationem natus! Debitis repudiandae dolorem quaerat suscipit accusamus dicta iste veniam ex magnam praesentium facilis consectetur mollitia quidem neque hic aspernatur eius quisquam doloremque, cum pariatur numquam eligendi inventore! Repellat, quidem!</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, possimus. Voluptates magni molestiae dolorum consectetur officiis veniam enim facilis corporis magnam a eaque dolorem, dicta quam ullam harum hic doloremque tempora illo mollitia labore. Vitae praesentium temporibus fuga iusto tempore quod reprehenderit odit accusamus dolorum!</p>
       <p>We offer these Services</p>
       <ul>
